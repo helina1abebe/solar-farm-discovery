@@ -1,0 +1,9 @@
+pandas
+numpy
+seaborn
+requests
+python-dotenv
+pre-commit
+joblib
+scikit-learn
+streamlit
