@@ -1,19 +1,34 @@
-# Solar Challenge Week 1
+**Solar Farm Discovery – 10 Academy Week 1 Challenge**
+This repository contains my work for the Week 1 challenge of 10 Academy Phase 3. The objective is to analyze solar farm sensor data from Benin, Sierra Leone, and Togo to identify high-potential regions for solar energy installation.
 
-## Overview
+**Tasks Completed**
+**Task 1:** Repository and Environment Setup
+Initialized a GitHub repository and set up version control with Git.
+Created a working branch (setup-task) and merged changes into the main branch.
+Configured a Python virtual environment and created a requirements.txt file listing all project dependencies.
+Added a .gitignore file to prevent unnecessary files from being tracked.
+Set up a basic GitHub Actions CI workflow to validate future contributions.
+Documented setup instructions clearly in the README file.
 
-This repository is part of a week-long data engineering challenge focused on analyzing solar energy potential across multiple African countries. The first task involves setting up version control and the development environment using Git, GitHub, and Python virtual environments.
+**Task 2:** Data Profiling, Cleaning, and Exploratory Data Analysis (EDA)
+Performed full data profiling, cleaning, and EDA for Benin and Sierra Leone datasets. The main steps included:
+Identifying and handling missing values using median imputation.
+Detecting and handling outliers using Z-scores.
+Creating descriptive statistics reports and visualizations.
+Conducting time series analysis for variables such as GHI, DHI, DNI, and temperature.
+Plotting relationships between variables such as RH and GHI.
+Using bubble charts, histograms, and wind roses to uncover key patterns.
+Exporting cleaned data for further analysis.
 
----
+**Note:** Togo data processing is still in progress and will be included in upcoming tasks.
 
-## Setup Instructions
+Notebooks
+benin_eda.ipynb: Data profiling, cleaning, and analysis for Benin.
 
-Follow the steps below to reproduce the development environment on your local machine.
+sierra_leone_eda.ipynb: Data profiling, cleaning, and analysis for Sierra Leone.
 
-### 1. Clone the Repository
+togo_eda.ipynb: Work in progress.
 
-Open your terminal or command line and run the following commands:
-
-```bash
-git clone https://github.com/helina1abebe/solar-farm-discovery.git
-cd solar-challenge-week1
+Author
+Helina Abebe Bekele
+GitHub: helina1abebe
