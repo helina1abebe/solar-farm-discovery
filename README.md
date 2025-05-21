@@ -3,14 +3,14 @@
 ## Overview
 
 This project analyzes high-resolution solar irradiance and weather data from Benin, Sierra Leone, and Togo to identify optimal zones for solar energy deployment. It includes dataset cleaning, exploratory data analysis (EDA), statistical testing, and cross-country comparison.
-## ** Project Goals**
+## Project Goals
 -Clean and validate irradiance and weather datasets.
 -Perform country-specific exploratory analysis.
 -Compare solar potential across countries using statistical tests.
 -Generate actionable insights for solar farm site selection.
 
 
-Below is the folder structure: 
+##Below is the folder structure: 
 SOLAR-FARM-DISCOVERY/
 ├── .github/workflows/ci.yml              # CI with GitHub Actions
 ├── .venv/                                # Python virtual environment
